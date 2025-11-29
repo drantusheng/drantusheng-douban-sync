@@ -36,15 +36,7 @@ jobs:
         type: book
         format: csv
         dir: ./data/douban
-
-    - name: game
-      uses: lizheming/doumark-action@master
-      with:
-        id: 264938320
-        type: game
-        format: csv
-        dir: ./data/douban
-  
+        
     - name: Commit
       uses: EndBug/add-and-commit@v8
       with:
