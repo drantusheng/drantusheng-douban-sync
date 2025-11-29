@@ -3,6 +3,7 @@ name: douban
 on: 
   schedule:
   - cron: "30 * * * *"
+  workflow_dispatch: # 👈 确保有这一行
 
 jobs:
   douban:
