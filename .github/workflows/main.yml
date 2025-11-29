@@ -16,7 +16,7 @@ jobs:
     - name: movie
       uses: lizheming/doumark-action@master
       with:
-        id: dr安徒生
+        id: 264938320
         type: movie
         format: csv
         dir: ./data/douban
@@ -24,7 +24,7 @@ jobs:
     - name: music
       uses: lizheming/doumark-action@master
       with:
-        id: dr安徒生
+        id: 264938320
         type: music
         format: csv
         dir: ./data/douban
